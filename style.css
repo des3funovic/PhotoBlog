@@ -1,0 +1,31 @@
+body {
+  background-image: url("./images/PAKOBUBI.JPG"), url("./images/KOLEGINICE.JPG"),
+    url("./images/00000010.JPG");
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  overflow: scroll;
+  font-family: "Rajdhani", Helvetica;
+  font-size: 16px;
+}
+nav,
+ul,
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px;
+}
+.logoimg {
+  width: 2rem;
+  height: 2rem;
+}
+h1 {
+  margin: 0;
+}
